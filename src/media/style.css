@@ -1,0 +1,39 @@
+/*Fonts*/
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; } 
+header, nav, section, aside, footer{display:inline-block} 
+body { font-size: 13px; color: #252525; font-family: 'MontserratRegular'; background:#eee; padding:0px 0px !important; overflow-x:hidden}
+html, html body{height: 100%; min-height: auto; padding: 0px}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; line-height: normal; margin:0px 0px 15px 0px; font-family: 'MontserratMedium';}
+h1 {font-size:18px;    font-weight: 500;} 
+.banner{background: url(./images/banner.jpg) no-repeat center; overflow: hidden; color: #fff; text-align: center;
+ -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+  padding:200px 0px 180px 0px; position:relative; float:left; width:100%; text-align: center}
+/* .banner:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; } */
+.banner:after{content: ""; background: #0e1120; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; opacity: 0.8}
+.banner .container{display: inline-block; vertical-align: middle; text-align: center; position: relative; z-index: 99}
+.banner h1{margin-bottom: 35px; font-size: 39px; font-family: 'MontserratRegular';}
+.banner h1 b, .banner h2{font-family: 'MontserratSemiBold'; text-transform: uppercase}
+.page_banner{margin-bottom:20px;background: url(./images/banner.jpg) no-repeat top center; -webkit-background-size: cover; 
+	-moz-background-size: cover; -o-background-size: cover; background-size: cover; padding:50px 0px 50px 0px; position:relative;
+	 float:left; width:100%; text-align: center}
+.page_banner:after{content: ""; background: #0e1120; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; opacity: 0.8}
+.page_banner .container{position: relative; z-index: 9; color: #fff}
+.page_banner.special{padding: 150px 20px 30px 20px; text-align: left; min-height: 455px}
+/* login*/
+.page_banner h1{font-size: 30px}
+.cms .box{width: 100%; display: table; background: #fff; box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25); border-radius: 6px; margin-bottom: 25px !important;}
+.cms .container{max-width: 900px;}
+.cms.contact .form-group input, .cms.contact .form-group textarea{background: #E9F2F5;    height: 48px;}
+.cms.contact .form-group input:focus{box-shadow: none}
+.cms.contact h4{color: #35aadd;}
+.box .form-group{margin-bottom: 15px}
+.cms.contact .box{max-width: 500px;padding:20px;    margin: 0 auto;}
+.form-control:focus, .box .btn:focus{box-shadow: none;}
+.box .btn:hover{color:#fff; background: #09a8f4}
+.box .btn{ float: right;background: #49bff8;min-width: 100px;height: 50px; padding: 0px;color: #fff;font-size: 18px;font-weight: 500}
+.err-text{display: inline-block;width:100%;text-align: right;    color: #ff5050;
+    margin-bottom: 5px;}
+ .table-wrap table{box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3215686274509804)}   
+ .table tbody tr:nth-child(odd){    background: #e9f8ff;}
+ .table thead{    background: #0b75a6;
+    color: #fff;}
